@@ -12,7 +12,7 @@ class List{
                 Node* next;
             public:
                 Node(T elem) : data(elem), next(nullptr) {}
-                ~Node(){ delete this; }
+                ~Node(){ }
                 Node* getNext(){ return next;}
                 void setNext(Node* newNext){ next= newNext ;}
                 T getData(){ return data;}

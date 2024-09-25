@@ -28,7 +28,8 @@ int main(){
     myList.pushBack(5);
     myList.pushBack(6);
     myList.pushFront(0);
-    myList.remove(2);
+    myList.Print();
+    myList.Remove(myList.getSize()-1);
     myList.Print();
     return 0;
 
